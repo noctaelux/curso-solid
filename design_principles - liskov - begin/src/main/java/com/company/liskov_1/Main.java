@@ -7,12 +7,10 @@ public class Main {
 		Rectangle rectangle = new Rectangle(10, 20);
 		System.out.println(rectangle.computeArea());
 		
-		Square square = new Square(10);
+		Shape square = new Square(10);
 		System.out.println(square.computeArea());
 		
 		useRectangle(rectangle);
-		
-		useRectangle(square);
 
 	}
 
