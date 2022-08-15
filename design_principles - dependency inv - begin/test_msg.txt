@@ -1,0 +1,1 @@
+{"msg":"This is a message from O.Calzada","timestamp":{"year":2022,"monthValue":8,"dayOfMonth":15,"hour":0,"minute":30,"second":51,"nano":456794000,"dayOfWeek":"MONDAY","dayOfYear":227,"month":"AUGUST","chronology":{"id":"ISO","calendarType":"iso8601"}}}
