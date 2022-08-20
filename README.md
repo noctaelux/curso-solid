@@ -12,8 +12,8 @@
 
   - **Patrones Creacionales**: Se encargan de la creación de objetos
     - [Builder](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/builder-pattern)
-    - Simple Factory
-    - Factory Method
+    - [Simple Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/simple-factory)
+    - [Factory Method](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/factory-method-pattern)
     - Prototype
     - Singleton
     - Abstract Factory
