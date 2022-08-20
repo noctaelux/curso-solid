@@ -7,3 +7,9 @@
 */.project
 .DS_Store
 */.DS_Store
+
+design-patterns/*/.idea/
+design-patterns/*/.gradle/
+design-patterns/*/.classpath
+design-patterns/*/.project
+design-patterns/*/build/
