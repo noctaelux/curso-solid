@@ -7,11 +7,17 @@ public class Client {
 
 	public static void main(String[] args) {
 
+		//Forma tradicional
 		User user = createUser();
 		UserDTOBuilder webDTOBuilder = new UserWebDTOBuilder();
 		UserDTO userDTO = directCreate(webDTOBuilder, user);
-
 		System.out.println(userDTO);
+
+		//Forma más típica
+		Producto producto = crearProducto();
+		ProductoDTO productoDTO = null;
+		productoDTO = directCreate(ProductoDTO.getBuilder(), producto);
+		System.out.println(productoDTO);
 	}
 
 	public static UserDTO directCreate(UserDTOBuilder builder, User user){
@@ -20,6 +26,16 @@ public class Client {
 				.withLastName(user.getLastName())
 				.withBirthday(user.getBirthday())
 				.withAddress(user.getAddress())
+				.build();
+	}
+
+	public static ProductoDTO directCreate(ProductoDTO.ProductoDTOBuilder productoBuilder, Producto producto){
+		return productoBuilder
+				.withNombre(producto.getNombre())
+				.withDepartamento(producto.getDepartamento())
+				.withProveedor(producto.getProveedor())
+				.withPasillo(producto.getPasillo())
+				.withAnaquel(producto.getAnaquel())
 				.build();
 	}
 
@@ -39,5 +55,15 @@ public class Client {
 		address.setZipcode("47998");
 		user.setAddress(address);
 		return user;
+	}
+
+	public static Producto crearProducto(){
+		Producto producto = new Producto();
+		producto.setNombre("Producto de Prueba");
+		producto.setProveedor("Rubber Duck Inc.");
+		producto.setDepartamento("Test Products");
+		producto.setPasillo("11");
+		producto.setAnaquel("D5");
+		return producto;
 	}
 }

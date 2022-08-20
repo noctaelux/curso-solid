@@ -7,7 +7,8 @@ import java.time.Period;
 //TODO implement builder
 public class UserWebDTOBuilder implements UserDTOBuilder {
 
-    String name;
+    String firstName;
+    String lastName;
     String address;
     String age;
 
@@ -15,13 +16,13 @@ public class UserWebDTOBuilder implements UserDTOBuilder {
 
     @Override
     public UserDTOBuilder withFirstName(String fname) {
-        this.name = fname;
+        this.firstName = fname;
         return this;
     }
 
     @Override
     public UserDTOBuilder withLastName(String lname) {
-        this.name = name + " " + lname;
+        this.lastName = lname;
         return this;
     }
 
@@ -43,7 +44,7 @@ public class UserWebDTOBuilder implements UserDTOBuilder {
 
     @Override
     public UserDTO build() {
-        dto = new UserWebDTO(name, address, age);
+        dto = new UserWebDTO(firstName + " " + lastName, address, age);
         return dto;
     }
 
