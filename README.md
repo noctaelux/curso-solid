@@ -14,9 +14,9 @@
     - [Builder](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/builder-pattern)
     - [Simple Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/simple-factory)
     - [Factory Method](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/factory-method-pattern)
-    - Prototype
+    - [Prototype](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/prototype-pattern)
     - Singleton
-    - Abstract Factory
+    - [Abstract Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/abstract-factory-pattern)
     - Object Pool
   - **Patrones Estructurales**: Se encargan de cómo las clases y los objetos son arregladas o compuestas
   - **Patrones de Comportamiento**: Describen cómo las clases y los objetos interactúan y se comunican entre ellas.
