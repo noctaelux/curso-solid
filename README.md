@@ -19,4 +19,24 @@
     - [Abstract Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/abstract-factory-pattern)
     - [Object Pool](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/object-pool-pattern)
   - **Patrones Estructurales**: Se encargan de cómo las clases y los objetos son arregladas o compuestas
+    - Adapter
+    - Bridge
+    - Decorator
+    - Composite
+    - Facade
+    - Flytweight
+    - Proxy
   - **Patrones de Comportamiento**: Describen cómo las clases y los objetos interactúan y se comunican entre ellas.
+    - Chain of Responsibility
+    - Command
+    - Interpreter
+    - Mediator
+    - Iterator
+    - Memento
+    - Observer
+    - State
+    - Strategy
+    - Template Method
+    - Visitor
+    - Null Object
+
