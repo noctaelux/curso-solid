@@ -11,13 +11,13 @@
 ## Patrones de Diseño de Software
 
   - **Patrones Creacionales**: Se encargan de la creación de objetos
-    - [Builder](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/builder-pattern)
-    - [Simple Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/simple-factory)
-    - [Factory Method](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/factory-method-pattern)
-    - [Prototype](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/prototype-pattern)
-    - [Singleton](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/singleton-pattern)
-    - [Abstract Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/abstract-factory-pattern)
-    - [Object Pool](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/object-pool-pattern)
+    - [Builder](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/builder-pattern)
+    - [Simple Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/simple-factory)
+    - [Factory Method](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/factory-method-pattern)
+    - [Prototype](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/prototype-pattern)
+    - [Singleton](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/singleton-pattern)
+    - [Abstract Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/abstract-factory-pattern)
+    - [Object Pool](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/object-pool-pattern)
   - **Patrones Estructurales**: Se encargan de cómo las clases y los objetos son arregladas o compuestas
     - Adapter
     - Bridge
