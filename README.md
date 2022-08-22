@@ -17,6 +17,6 @@
     - [Prototype](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/prototype-pattern)
     - [Singleton](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/singleton-pattern)
     - [Abstract Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/abstract-factory-pattern)
-    - Object Pool
+    - [Object Pool](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/object-pool-pattern)
   - **Patrones Estructurales**: Se encargan de cómo las clases y los objetos son arregladas o compuestas
   - **Patrones de Comportamiento**: Describen cómo las clases y los objetos interactúan y se comunican entre ellas.
