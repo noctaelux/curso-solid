@@ -4,15 +4,22 @@ public class Main {
 
 	public static void main(String[] args) {
 		/** Using Class/Two-way adapter **/ 
-		EmployeeClassAdapter adapter = new EmployeeClassAdapter();
-		populateEmployeeData(adapter);
+		EmployeeClassAdapter classAdapter = new EmployeeClassAdapter();
+		populateEmployeeData(classAdapter);
 		BusinessCardDesigner designer = new BusinessCardDesigner();
 
-		String card =  designer.designCard(adapter);
+		String card =  designer.designCard(classAdapter);
 
 		System.out.println(card);
-		
+
+		System.out.println("************************************************");
 		/** Using Object Adapter **/
+		Employee employee = new Employee();
+		populateEmployeeData(employee);
+		EmployeeObjectAdapter objectAdapter = new EmployeeObjectAdapter(employee);
+		card = designer.designCard(objectAdapter);
+
+		System.out.println(card);
 		
 	}
 
