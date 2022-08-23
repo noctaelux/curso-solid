@@ -2,6 +2,7 @@
 */.idea/
 */.settings/
 */.vscode/
+*/.build/
 
 */.classpath
 */.project
@@ -13,3 +14,14 @@ design-patterns/*/*/.gradle/
 design-patterns/*/*/.classpath
 design-patterns/*/*/.project
 design-patterns/*/*/build/
+design-patterns/*/*/lib/
+design-patterns/*/*/bin/
+
+solid-principles/*/.idea/
+solid-principles/*/.gradle/
+solid-principles/*/.classpath
+solid-principles/*/.project
+solid-principles/*/.build
+solid-principles/*/.vscode
+solid-principles/*/build/
+solid-principles/*/target/
