@@ -21,7 +21,7 @@
   - **Patrones Estructurales**: Se encargan de cómo las clases y los objetos son arreglados o compuestos
     - [Adapter](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/adapter-pattern)
     - [Bridge](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/bridge-pattern)
-    - Decorator
+    - [Decorator](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/decorator-pattern)
     - Composite
     - Facade
     - Flytweight
