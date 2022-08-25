@@ -18,9 +18,9 @@
     - [Singleton](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/singleton-pattern)
     - [Abstract Factory](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/abstract-factory-pattern)
     - [Object Pool](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/creational-patterns/object-pool-pattern)
-  - **Patrones Estructurales**: Se encargan de cómo las clases y los objetos son arregladas o compuestas
+  - **Patrones Estructurales**: Se encargan de cómo las clases y los objetos son arreglados o compuestos
     - [Adapter](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/adapter-pattern)
-    - Bridge
+    - [Bridge](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/bridge-pattern)
     - Decorator
     - Composite
     - Facade
