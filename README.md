@@ -22,7 +22,7 @@
     - [Adapter](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/adapter-pattern)
     - [Bridge](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/bridge-pattern)
     - [Decorator](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/decorator-pattern)
-    - Composite
+    - [Composite](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/composite-pattern)
     - Facade
     - Flytweight
     - Proxy
