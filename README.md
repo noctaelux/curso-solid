@@ -24,7 +24,7 @@
     - [Decorator](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/decorator-pattern)
     - [Composite](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/composite-pattern)
     - [Facade](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/facade-pattern)
-    - Flyweight
+    - [Flyweight](https://github.com/noctaelux/curso-solid/tree/main/design-patterns/structural-patterns/flyweight-pattern)
     - Proxy
   - **Patrones de Comportamiento**: Describen cómo las clases y los objetos interactúan y se comunican entre ellas.
     - Chain of Responsibility
