@@ -13,3 +13,5 @@ un comportamiento.
 permitiendo ahorrar una gran cantidad de **RAM** que de otra manera podría llegar a desbordar si los objetos por sí 
 solos se crearan en instancias separadas.
  - El objeto regresado es siempre el mismo pero con cambios en su estado extrínseco.
+
+![UML Flyweight Pattern](assets/Flyweight.jpg)
