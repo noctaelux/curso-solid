@@ -12,3 +12,5 @@ del código del cliente hacia el código legacy.
  - No se recomienda este patrón para usarse como un gran contenedor de métodos, si se usa la inversión de dependencias 
 de forma apropiada, deberíamos tener como resultado unos pocos métodos que proporcionan gran funcionalidad y 
 reutilizables.
+
+![UML Facade Pattern](assets/Facade.jpg)
